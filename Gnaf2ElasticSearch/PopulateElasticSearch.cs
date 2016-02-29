@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Nest;
 using System.Diagnostics;
 using System.ComponentModel;
-using System.Linq;
+using Nest;
 
-namespace marval.dao
+namespace Gnaf2ElasticSearch
 {
     public class PopulateElasticSearch
     {

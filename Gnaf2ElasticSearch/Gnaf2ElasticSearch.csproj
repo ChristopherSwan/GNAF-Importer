@@ -62,6 +62,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GnafAddress.cs" />
     <Compile Include="GnafFileFormat\AddressAlias.cs" />
     <Compile Include="GnafFileFormat\AddressDefaultGeocode.cs" />
     <Compile Include="GnafFileFormat\AddressDetail.cs" />
@@ -78,6 +79,7 @@
     <Compile Include="GnafFileFormat\StreetLocality.cs" />
     <Compile Include="GnafFileFormat\StreetLocalityAlias.cs" />
     <Compile Include="GnafFileFormat\StreetLocalityPoint.cs" />
+    <Compile Include="GnafFileLoader.cs" />
     <Compile Include="PopulateElasticSearch.cs" />
     <Compile Include="PopulateWorkerProgressEventArgs.cs" />
     <Compile Include="Program.cs" />
